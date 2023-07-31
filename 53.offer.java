@@ -16,10 +16,7 @@ public class Main {
         }
         System.out.println("出现了"+flat+"次");
     }
-
-    public static void count(int[] array,int left,int right){
-        int mid = left + (right - left)/2;
-    }
+    
     public static int left_bound(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         // 搜索区间为 [left, right]
